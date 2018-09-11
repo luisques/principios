@@ -139,7 +139,7 @@ class Lampara:
     # quiero 801
     # => necesito 11 lamparas
     cantidadLamparas = (totalLumens // self.lumens) + 1
-    return cantidad
+    return cantidadLamparas
 
 
 def main():
